@@ -1,0 +1,47 @@
+
+
+#main-menu {
+    background-color: rgb(25, 0, 255);
+
+}
+
+#main-menu ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
+
+
+}
+
+#main-menu li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+#main-menu li a {
+    position: relative;
+    
+    display: block;
+   
+    text-align: center;
+    
+    text-decoration: none;
+    color: black;
+}
+
+#main-menu li a:hover {
+    background-color: lightblue;
+}
+
+main-menu ul ul {
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: aquamarine;
+}
+
+main-menu ul li {
+    display: block;
+   
+}
